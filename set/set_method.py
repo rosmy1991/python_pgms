@@ -1,0 +1,16 @@
+lst=[1,2,3,4,5]
+st1=set(lst)
+print(st1)
+st2={7,8,9,4,5}
+#add()
+st1.add(6)
+print(st1)
+#remove
+st1.remove(6)
+print(st1)
+union_set=st1.union(st2)
+print("union\n",union_set)
+int_set=st1.intersection(st2)
+print("intersection\n",int_set)
+diff=st1.difference(st2)
+print("difference\n",diff)
