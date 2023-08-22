@@ -1,0 +1,11 @@
+food1=["aaa","bbbb","ccccc"]
+food2=["ddd","fffff"]
+print(food1)
+print(food2)
+food1.extend(food2)
+print(food1)
+food1.extend("apple")
+print(food1)
+food1.remove("ddd")
+food2.remove("ddd")
+print(food2)
